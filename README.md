@@ -1,27 +1,23 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Dupe/trade scam", "Ocean")
+local Window = Library.CreateLib("Pet-Sim-99", "Ocean")
 
 -- Main
-local Main = Window:NewTab("Dupe")
+local Main = Window:NewTab("Auto Fishing")
 local MainSection = Main:NewSection("Main")
 
 
-MainSection:NewButton("Dupe", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/UiQAwtQj"))()
+MainSection:NewButton("Auto fish", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/iF80L0i9"))()
 end)
 
-MainSection:NewToggle("faster", "be faster than normal", function(state)
-    if state then
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 120
-    else
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
-    end
+MainSection:NewToggle("fast Auto fish", "be faster auto fish than normal", function(state)
+    loadstring(game:HttpGet("https://pastebin.com/raw/iF80L0i9"))()
 end)
 
-MainSection:NewButton("Trade scam", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/UiQAwtQj"))()
+MainSection:NewButton("Auto Farm", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/iF80L0i9"))()
 end)
 
-MainSection:NewButton("lag server", "when you trade click it and click trade scam", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/UiQAwtQj"))()
+MainSection:NewButton("fast server", "when you trade click it and click trade scam", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/iF80L0i9"))()
 end)
